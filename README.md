@@ -11,9 +11,8 @@ user manager using BaseUserManager
 1 . `{{base_url}}/user/register/`  <br>
    Required: <br> full_name,<br> email ,<br>,password, <br> retype_password
    <br>
-1. Login API  method(POST)<br>
-
-`{{base_url}}/user/login/`<br>
+1. Login API  method(POST) <br>
+   `{{base_url}}/user/login/`<br>
 Required: <br>
 email,<br>password
 
