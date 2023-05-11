@@ -1,4 +1,5 @@
-# update-tech
+# Sales Reports
+
 ### Requirements
 1. python3,
 2.     pip3 install -r requirements.txt
@@ -38,7 +39,9 @@ transactions.
 ○ Sales performance line chart over the years
 <br>
 1. Fully dynamic  Sales report . You can check by inserting & removing data
+
 ### Demo Images
+
 <img src="demo_images/first_page.png">
 <img src="demo_images/second.png">
 <img src="demo_images/last_page.png">
@@ -51,9 +54,9 @@ transactions.
 2.     python3 manage.py runserver
 
 3. If you want to access admin panel
-then you use
+then you use  `{{base_url}}/admin`
 
-4.     url:{{base_url}}/admin
+4.     
        email:admin@gmail.com
        password:123
-### Done
+### -----------Done------------
