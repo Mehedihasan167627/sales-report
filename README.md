@@ -8,13 +8,33 @@
 user manager using BaseUserManager
  
 2. ● Now implement login and registration API with DRF
-1.  `{{base_url}}/user/register/`
-2.  `{{base_url}}/user/login/`
+1.  `{{base_url}}/user/register/`<br>
+   Required: <br> full_name,<br> email ,<br>,password, <br> retype_password
+2.  `{{base_url}}/user/login/`<br>
+Required: <br>
+email,<br>password
 
 
 ### Task-2 :
 1. ● Create a REST API for data insertion and manipulation
-2. fetch & insert sales  <br> `{{base_url}}/api/sales/` 
+2. fetch & insert sales  <br> `{{base_url}}/api/sales/` <br>
+ Insert Required:
+    order_id,<br>
+ship_date,<br>
+ship_mode,<br>
+customer_id,<br>
+customer_name,<br>
+segment,<br>
+country,<br>
+city,<br>
+state,<br>
+postal_code,<br>
+region,<br>
+product_id,<br>
+category,<br>
+sub_category,<br>
+product_name,<br>
+sales,<br>
 3.  update & delete sales <br> `{{base_url}}/api/sales/<pk>/` 
 3. Generate Sales Report: <br>
 `{{base_url}}/api/sales/report/`
