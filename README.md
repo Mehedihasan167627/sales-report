@@ -7,17 +7,19 @@
 1. ● Created an Entity for the user model using AbstractBaseUser class and a custom 
 user manager using BaseUserManager
  
-2. ● Now implement login and registration API with DRF
-1.  `{{base_url}}/user/register/`<br>
+2. ● Now implement login and registration API with DRF, method(POST)<br>
+o . `{{base_url}}/user/register/`  <br>
    Required: <br> full_name,<br> email ,<br>,password, <br> retype_password
-2.  `{{base_url}}/user/login/`<br>
+   <br>
+o .method(POST)<br>
+`{{base_url}}/user/login/`<br>
 Required: <br>
 email,<br>password
 
 
 ### Task-2 :
 1. ● Create a REST API for data insertion and manipulation
-2. fetch & insert sales  <br> `{{base_url}}/api/sales/` <br>
+2. fetch & insert sales, method(GET, POST) <br> `{{base_url}}/api/sales/` <br>
  Insert Required:
     order_id,<br>
 ship_date,<br>
@@ -35,8 +37,8 @@ category,<br>
 sub_category,<br>
 product_name,<br>
 sales,<br>
-3.  update & delete sales <br> `{{base_url}}/api/sales/<pk>/` 
-3. Generate Sales Report: <br>
+3.  update & delete sales,method(PUT,DELETE)<br> `{{base_url}}/api/sales/<pk>/` 
+3. Generate Sales Report: (GET) <br>
 `{{base_url}}/api/sales/report/`
 <br> <b>you'll get a sales pdf file </b>
 
