@@ -8,10 +8,11 @@
 user manager using BaseUserManager
  
 2. ● Now implement login and registration API with DRF, method(POST)<br>
-o . `{{base_url}}/user/register/`  <br>
+1 . `{{base_url}}/user/register/`  <br>
    Required: <br> full_name,<br> email ,<br>,password, <br> retype_password
    <br>
-o .method(POST)<br>
+1. Login API  method(POST)<br>
+
 `{{base_url}}/user/login/`<br>
 Required: <br>
 email,<br>password
