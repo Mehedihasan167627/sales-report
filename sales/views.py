@@ -4,7 +4,7 @@ from django.db.models import Count,Sum
 
 from .serializers import SaleSerializer
 from .models import Sale 
-
+import os 
 
 from fpdf import FPDF
 from PIL import Image
@@ -145,8 +145,11 @@ class SalesReportAPIView(APIView):
         graph=self.make_graph(data['line_chart'],chart_type="line")
         pdf.image(graph)
         location="static/sales.pdf"
+        
         pdf.output(location)
-
+        
+        os.remove(graph)
+        os.remove(region_graph)
         return location
       
 
