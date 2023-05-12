@@ -76,7 +76,7 @@ transactions.
 2.     python3 manage.py runserver
 
 3. If you want to access admin panel
-then you use  `{{base_url}}/admin`
+then you can use  `{{base_url}}/admin`
 
 4.     
        email:admin@gmail.com
