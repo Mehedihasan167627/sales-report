@@ -37,9 +37,9 @@ class SalesReportAPIView(APIView):
         location=self.preprocess_data(data)
         
         return response.Response({
+              "msg":"Open this file on any brower,or click the link",
+            "download_url":"http://127.0.0.1:8000/"+location,
            
-            "open_on_brower":"http://127.0.0.1:8000/"+location,
-             "msg":"or click if you're on postman",
             },status=status.HTTP_200_OK)
     
     def preprocess_data(self,data):
@@ -146,6 +146,7 @@ class SalesReportAPIView(APIView):
         pdf.image(graph)
         location="static/sales.pdf"
         pdf.output(location)
+
         return location
       
 
