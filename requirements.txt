@@ -33,7 +33,7 @@ pyHanko==0.18.1
 pyhanko-certvalidator==0.22.0
 PyJWT==2.7.0
 pyparsing==3.0.9
-pypdf==3.8.1
+pypdf==3.9.0
 pypng==0.20220715.0
 python-bidi==0.4.2
 python-dateutil==2.8.2
